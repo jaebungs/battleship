@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+install for yarn is faster than npm because of parallel installation.
+
+yarn uses checksum - strings of characters created by applying mathematical algorithm to the contents of a file.
+npm uses SHA-1 (secure hash algorithm) - specified in the lock.json file with integrity key value.
+
+yarn has built in license checker
+npm needs to download. there are some open source packages like license-checker
+
+
