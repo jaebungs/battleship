@@ -79,3 +79,9 @@ yarn has built in license checker
 npm needs to download. there are some open source packages like license-checker
 
 
+#### Factory functions  
+Methods, feilds, members in a class object are public.  
+->Factory function have better encapsulation, which means better security.  
+  
+'this' could cause losing context problem when used in a nested function or a callback like DOM event.  
+->Factory function don't use this. Less error prompt.
