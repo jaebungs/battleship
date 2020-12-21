@@ -1,5 +1,4 @@
 import CreateShip from '../../factory/CreateShip';
-import fixture from '../fixture/fixture';
 
 test('should isHit return true  and push to trackHit when hit', ()=>{
     const ship = CreateShip(1, 3, [4, 14, 24])
