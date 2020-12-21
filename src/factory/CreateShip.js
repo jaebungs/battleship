@@ -1,4 +1,4 @@
-const  CreateShip = (id, size, position) => {
+const CreateShip = (id, size, position) => {
     let trackHit = [];
 
     const isHit = (location) => {
