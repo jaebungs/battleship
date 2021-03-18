@@ -1,11 +1,13 @@
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Template</h1>
-      </header>
-    </div>
-  );
+import React from 'react';
+import InitializeGame from './InitializeGame';
+
+const App = () => {
+    
+    return (
+        <div>
+            <InitializeGame />
+        </div>
+    )
 }
 
 export default App;
